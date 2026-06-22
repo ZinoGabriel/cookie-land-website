@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    z-index: 10;
+    background-color:transparent;
+
+
+}
+nav .logo {
+    width: 80px;
+    cursor: pointer;
+    margin-right: 50px; 
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 30px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+   
+    
+    color: #07b4e9;           
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    transition: 0.3s;
+    
+}
+
+nav ul li a:hover {
+    color: #03d2f7; 
+}
+
+ h1{
+    color:rgb(6, 164, 238);
+    text-align: center;
+    padding-top: 200px;
+    font-weight: bold;
+    font-size: 50PX;
+    font-family: cursive;
+    transition: 1s;
+
+ }
+ h1:hover{
+    color:rgba(98, 0, 255, 0.719)
+ }
+ .hero-header{
+    
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('istockphoto-905568020-612x612.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff; /* White text looks best on colorful floating backgrounds */
+  /*Flexbox setting that pushes all inner element to the center*/
+   display: flex;
+  flex-direction: column; /* Stacks text on top, button on bottom */
+  align-items: center;    /* Centers horizontally */
+  justify-content: center; /* Centers vertically */
+  text-align: center;
+  gap: 24px;              /* Creates a clean gap space between text and button */
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.explore-btn {
+  padding: 20px 40px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+  background-color: #00bdf7; /* Warm chocolate-brown tone */
+  border: none;
+  border-radius: 50px; /* Rounded pill style */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Smooth color swap animation when hovering over the button */
+.explore-btn:hover {
+  background-color: transparent;
+  color: #00bdf7;
+  border-color: #ffffff;
+  transform: scale(1.05); /* Subtle zoom effect */
+}
+
+ /* Apply this to ALL your sections */
+.fullscreen-section {
+    color: rgb(231, 153, 9);
+    font-size: 40px;
+    height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  /* Flexbox keeps the text centered inside every screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  padding-top:100px ;
+} 
+.bg-cookies {
+  background-image: url('cookie pic 3.webp');
+}
+.fullscreen-section2 {
+  height: 100vh;
+  color: rgb(127, 168, 255);
+  font-size: 40px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  /* Flexbox keeps the text centered inside every screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+padding-top: 50px;
+  
+}
+.bg-ingredients{
+    background-image: url(' cookie 4.webp');
+}
+p{
+    font-family: cursive;
+}
+ol{
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 89, 255);
+   
+}
+ol:hover{
+    color: mediumblue;
+}
